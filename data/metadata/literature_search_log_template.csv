@@ -1,1 +1,24 @@
 literature_search_id,search_date,source,query,filters,hits_returned,results_file_path,searched_by,notes
+LS001,2026-06-02,WebSearch,"systematic review diagnostic error pathology malpractice",2000-2025,,,"automated_deep_research",Domain A: global pathology errors and malpractice liability
+LS002,2026-06-02,WebSearch,"pathology misdiagnosis liability claims prevalence",2000-2025,,,"automated_deep_research",Domain A: global pathology errors and malpractice liability
+LS003,2026-06-02,WebSearch,"surgical pathology diagnostic error rate systematic review",2000-2025,,,"automated_deep_research",Domain A: global pathology errors and malpractice liability
+LS004,2026-06-02,WebSearch,"cytology FNAC diagnostic error malpractice litigation",2000-2025,,,"automated_deep_research",Domain A: global pathology errors and malpractice liability
+LS005,2026-06-02,WebSearch,"Indian medical negligence law Supreme Court landmark cases",2000-2025,,,"automated_deep_research",Domain B: Indian medical negligence law
+LS006,2026-06-02,WebSearch,"Bolam test India medical negligence consumer protection",2000-2025,,,"automated_deep_research",Domain B: Indian medical negligence law
+LS007,2026-06-02,WebSearch,"Indian medical negligence diagnostic error case law review",2000-2025,,,"automated_deep_research",Domain B: Indian medical negligence law
+LS008,2026-06-02,WebSearch,"Consumer Protection Act 2019 medical negligence India",2000-2025,,,"automated_deep_research",Domain B: Indian medical negligence law
+LS009,2026-06-02,WebSearch,"pathology negligence India court cases review",2000-2025,,,"automated_deep_research",Domain C: pathology-specific litigation in India
+LS010,2026-06-02,WebSearch,"diagnostic laboratory liability India consumer court NCDRC",2000-2025,,,"automated_deep_research",Domain C: pathology-specific litigation in India
+LS011,2026-06-02,WebSearch,"histopathology misdiagnosis India medico-legal case commentary",2000-2025,,,"automated_deep_research",Domain C: pathology-specific litigation in India
+LS012,2026-06-02,WebSearch,"FNAC cytology error India negligence litigation",2000-2025,,,"automated_deep_research",Domain C: pathology-specific litigation in India
+LS013,2026-06-02,WebSearch,"Indian pathologist malpractice case law study",2000-2025,,,"automated_deep_research",Domain C: pathology-specific litigation in India
+LS014,2026-06-02,WebSearch,"diagnostic error taxonomy pathology pre-analytical analytical post-analytical",2000-2025,,,"automated_deep_research",Domain D: diagnostic error frameworks and QA
+LS015,2026-06-02,WebSearch,"CAP quality improvement pathology diagnostic error classification",2000-2025,,,"automated_deep_research",Domain D: diagnostic error frameworks and QA
+LS016,2026-06-02,WebSearch,"NABL accreditation India diagnostic laboratory quality standards",2000-2025,,,"automated_deep_research",Domain D: diagnostic error frameworks and QA
+LS017,2026-06-02,WebSearch,"diagnostic discrepancy surgical pathology second opinion review",2000-2025,,,"automated_deep_research",Domain D: diagnostic error frameworks and QA
+LS018,2026-06-02,WebSearch,"IOM improving diagnosis healthcare pathology",2000-2025,,,"automated_deep_research",Domain D: diagnostic error frameworks and QA
+LS019,2026-06-02,WebSearch,"pathology risk management malpractice prevention documentation",2000-2025,,,"automated_deep_research",Domain E: risk management and consumer courts
+LS020,2026-06-02,WebSearch,"Indian consumer court medical negligence compensation trends analysis",2000-2025,,,"automated_deep_research",Domain E: risk management and consumer courts
+LS021,2026-06-02,WebSearch,"NCDRC medical negligence claims statistics India trends",2000-2025,,,"automated_deep_research",Domain E: risk management and consumer courts
+LS022,2026-06-02,WebSearch,"expert evidence Indian consumer court medical cases",2000-2025,,,"automated_deep_research",Domain E: risk management and consumer courts
+LS023,2026-06-02,WebSearch,"medico-legal risk reduction pathology laboratory",2000-2025,,,"automated_deep_research",Domain E: risk management and consumer courts
