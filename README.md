@@ -6,7 +6,7 @@ This repository supports the study **"Diagnostic Errors in Pathology and Their M
 
 | Path | Purpose |
 | --- | --- |
-| `docs/` | Study protocol notes, data collection plan, coding rules, and documentation. |
+| `docs/` | Full study protocol, data collection plan, literature review tracking plan, coding rules, and documentation. |
 | `config/` | Search terms, source lists, literature strategies, and other configurable collection settings. |
 | `data/raw/` | Unmodified source material, including downloaded judgments, case search exports, and literature exports. |
 | `data/processed/` | Cleaned case-level datasets after screening, deduplication, and coding. |
@@ -22,7 +22,7 @@ This repository supports the study **"Diagnostic Errors in Pathology and Their M
 
 ## Recommended workflow
 
-1. Configure case-law sources and search strings in `config/search_strategy.yml`, and literature sources in `config/literature_search_strategy.yml`.
+1. Start from the full protocol in `docs/study_protocol.md`, then configure case-law sources and search strings in `config/search_strategy.yml`, and literature sources in `config/literature_search_strategy.yml`.
 2. Store source exports, downloaded judgments, and literature citation exports in `data/raw/` without manual editing.
 3. Record provenance for every case in `data/metadata/case_inventory_template.csv` and every literature record in `data/metadata/literature_inventory_template.csv`.
 4. Screen and deduplicate cases using scripts in `code/cleaning/`.
