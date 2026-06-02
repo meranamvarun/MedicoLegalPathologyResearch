@@ -1,0 +1,68 @@
+# Literature search strategy for medico-legal pathology diagnostic-error scholarship.
+# Log every executed query in data/metadata/literature_search_log_template.csv.
+
+sources:
+  - name: PubMed/MEDLINE
+    type: biomedical_database
+    export_target: data/raw/literature/
+  - name: Google Scholar
+    type: scholarly_search
+    export_target: data/raw/literature/
+  - name: IndMED
+    type: biomedical_database
+    export_target: data/raw/literature/
+  - name: Institutional library discovery
+    type: library_database
+    export_target: data/raw/literature/
+  - name: Legal article databases
+    type: legal_scholarship_database
+    export_target: data/raw/literature/
+
+pathology_terms:
+  - pathology
+  - pathologist
+  - histopathology
+  - cytology
+  - FNAC
+  - "fine needle aspiration"
+  - "laboratory medicine"
+  - "diagnostic laboratory"
+  - autopsy
+  - "post-mortem"
+
+error_terms:
+  - "diagnostic error"
+  - misdiagnosis
+  - "delayed diagnosis"
+  - "reporting error"
+  - "specimen error"
+  - "diagnostic discrepancy"
+  - "false positive"
+  - "false negative"
+
+legal_terms:
+  - "medical negligence"
+  - malpractice
+  - medico-legal
+  - medicolegal
+  - "consumer court"
+  - "deficiency in service"
+  - "expert evidence"
+  - "Bolam test"
+  - "standard of care"
+  - liability
+
+jurisdiction_terms:
+  - India
+  - Indian
+  - "Indian case law"
+  - "Supreme Court of India"
+  - "High Court"
+  - "National Consumer Disputes Redressal Commission"
+  - NCDRC
+
+query_templates:
+  - '"{pathology_term}" AND "{error_term}" AND India'
+  - '"{pathology_term}" AND "{legal_term}" AND India'
+  - '"{error_term}" AND "{legal_term}" AND India'
+  - '"{pathology_term}" AND "{legal_term}" AND "case law"'

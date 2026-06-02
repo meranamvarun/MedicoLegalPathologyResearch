@@ -1,0 +1,61 @@
+# Search strategy for Indian pathology diagnostic-error case-law collection.
+# Log every executed query in data/metadata/search_log_template.csv.
+
+sources:
+  - name: Supreme Court of India
+    type: court_portal
+    notes: Search official Supreme Court judgments and orders.
+  - name: High Courts
+    type: court_portal
+    notes: Search High Court portals and public aggregators jurisdiction by jurisdiction.
+  - name: National Consumer Disputes Redressal Commission
+    type: consumer_forum
+    notes: Prioritize medical negligence and deficiency-in-service matters.
+  - name: State Consumer Disputes Redressal Commissions
+    type: consumer_forum
+    notes: Include where public search access is available.
+  - name: Legal databases
+    type: subscription_or_public_database
+    notes: Use institutional access where available and preserve license-compliant exports.
+
+pathology_terms:
+  - pathology
+  - pathologist
+  - histopathology
+  - biopsy
+  - cytology
+  - FNAC
+  - "fine needle aspiration"
+  - "Pap smear"
+  - "laboratory report"
+  - "diagnostic laboratory"
+  - autopsy
+  - "post-mortem"
+
+error_terms:
+  - "wrong diagnosis"
+  - misdiagnosis
+  - "delayed diagnosis"
+  - "erroneous report"
+  - "false positive"
+  - "false negative"
+  - "reporting delay"
+  - "specimen mix-up"
+  - "sample mix-up"
+  - "lost specimen"
+  - "communication failure"
+
+legal_terms:
+  - "medical negligence"
+  - "deficiency in service"
+  - "consumer complaint"
+  - compensation
+  - "expert evidence"
+  - "standard of care"
+  - Bolam
+  - causation
+
+query_templates:
+  - '"{pathology_term}" AND "{legal_term}"'
+  - '"{pathology_term}" AND "{error_term}"'
+  - '"{pathology_term}" AND "{error_term}" AND "{legal_term}"'
