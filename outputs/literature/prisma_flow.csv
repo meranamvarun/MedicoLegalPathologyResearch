@@ -1,0 +1,15 @@
+stage,count,notes,last_updated
+records_identified_through_database_searching,68,Initial deep research across 23 queries and 5 search angles,2026-06-03
+additional_records_from_citation_chasing,0,Pending Phase 2 full-text review and citation lead extraction,
+records_after_duplicates_removed,67,C01 and F01 are the same source (IJME NCDRC five-year review),2026-06-03
+records_screened_title_abstract,67,All records screened during initial identification,2026-06-03
+records_excluded_title_abstract,0,No records excluded at this stage; all met broad relevance criteria,2026-06-03
+full_text_assessed_for_eligibility,0,Pending Phase 2 full-text retrieval,
+full_text_excluded_with_reasons,0,Pending Phase 2,
+studies_included_in_synthesis,67,Preliminary; subject to revision after full-text screening,2026-06-03
+domain_a_global_pathology_errors,15,Sources A01-A15,2026-06-03
+domain_b_indian_negligence_law,13,Sources B01-B13 (6 court decisions and 7 articles),2026-06-03
+domain_c_pathology_litigation_india,12,Sources C01-C12 (7 studies and 5 court cases),2026-06-03
+domain_d_error_taxonomies_qa,15,Sources D01-D15,2026-06-03
+domain_e_risk_management,7,Sources E01-E07,2026-06-03
+domain_f_consumer_court_trends,8,Sources F01-F08 (F01 duplicates C01),2026-06-03
